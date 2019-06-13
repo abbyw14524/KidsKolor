@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AudioToolbox
 
 class ViewController: UIViewController {
 
@@ -17,7 +18,7 @@ class ViewController: UIViewController {
 
     //page one image buttons
     @IBAction func banana1(_ sender: UIButton) {
-        self.view.backgroundColor = UIColor.red
+        AudioServicesPlaySystemSound(1521)
     }
     @IBAction func orange1(_ sender: UIButton) {
         self.view.backgroundColor = UIColor.red
